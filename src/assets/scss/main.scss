@@ -1,0 +1,241 @@
+@import "_bootstrap";
+@import "vars";
+@import url("https://fonts.googleapis.com/css2?family=Exo&family=Poppins:wght@400;600&display=swap");
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--body-bg);
+  color: var();
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+  color: var(--color-text)
+}
+p,
+span,
+button,
+li,
+a {
+  font-family: "Poppins";
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1280px;
+  }
+}
+
+.slide-fade-enter-active {
+  transition: all 0.2s ease;
+}
+.slide-fade-leave-active {
+  transition: all 0.2s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.slide-fade-enter, .slide-fade-leave-to
+  /* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+.fit-content {
+  width: fit-content;
+}
+select {
+  width: 100%;
+  border: 1px solid #ecefee;
+  height: 60px;
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: #666;
+}
+.form-input[type="text"],
+.form-input[type="password"],
+.form-input[type="email"],
+.form-input select,
+.form-input[type="email"],
+.form-input[type="tel"],
+.form-input[type="date"],
+textarea {
+  width: 100%;
+  border: 1px solid #ecefee;
+  height: 60px;
+  &:valid {
+    border: 1px solid $tertiary;
+  }
+  &:focus {
+    box-shadow: inset 0 0 0 1px $primary, inset 0 0 0 1px $primary,
+      inset 0 0 0 1px $primary, inset 0 0 0 1px $primary !important;
+    border-color: $primary !important;
+  }
+  &:hover {
+    border-color: $primary;
+  }
+}
+
+//buttons
+.btn {
+  height: 60px;
+  background: $primary;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  font-size: 1rem;
+  border: 0px;
+  &:hover {
+    border-radius: 0 1rem 0 1rem;
+    border: 0px;
+    opacity: 0.8;
+    color: white;
+  }
+  svg {
+    transition: all 0.2s ease-in-out;
+  }
+}
+.btn-success {
+  background: #62cca9;
+  color: white;
+  &:hover {
+    background: #62cca9;
+  }
+}
+
+.btn-white {
+  background: white;
+  color: $text;
+  &:hover {
+    color: $text;
+
+    background: white;
+  }
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  &:hover {
+    background: var(--primary);
+    color: white;
+  }
+}
+
+.btn-secondary {
+  background: $tertiary;
+  color: white;
+}
+
+.btn-success:not(:disabled):not(.disabled):active,
+.btn-success:not(:disabled):not(.disabled).active,
+.show > .btn-success.dropdown-toggle {
+  color: #fff;
+  background-color: #cba97a !important;
+  border-color: #cba97a !important;
+}
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-secondary.focus {
+  background-color:transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+.divisor {
+  background: $tertiary;
+  height: 3px;
+  border: 0;
+  width: 60px;
+  display: flex;
+  margin: 15px 0px;
+  text-align: left;
+}
+
+.stepper {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  // position: absolute;
+  // width: 100%;
+  // bottom: 30px;
+  // right: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .step-line {
+    width: 100% !important;
+    left: auto !important;
+    div {
+      justify-content: center !important;
+    }
+  }
+  .stepper {
+    position: relative !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.deactivated {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.el-step__icon {
+  background: #f8f8f8 !important;
+}
+
+.el-step__title {
+  font-size: 13px !important;
+}
+
+.btn-close {
+  cursor: pointer;
+}
+
+.center-input {
+  max-width: 200px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.fit-content {
+  width: fit-content;
+}
+
+@media screen and(max-width: 900px) {
+  .logo-site{
+    max-width: 17em;
+  }
+  .el-step__title {
+    display: none;
+  }
+  .btn{
+    width: 100%;
+  }
+}
+
+.bg-home {
+  background: url("../../assets/img/bg.jpg") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.vh-80{
+  height: 95vh;
+}

@@ -1,0 +1,114 @@
+//
+// Theme Sass variables and mixins
+//
+//
+
+:root{
+  --body-bg: #121214;
+--body-color: white;
+--primary: #00ABAF;
+--secondary: #DB2242;
+--tertiary: #202024;
+--text: #FFFFFF;
+--border: #101111;
+
+}
+
+$body-bg: #f8f8f8;
+$body-color: white;
+$primary: #00ABAF;
+$secondary: #DB2242;
+$tertiary: #202024;
+$text: #383d3e;
+$border: #ECEFEE;
+
+$colors: (
+  primary: #00ABAF,
+  secondary: #DB2242,
+  tertiary: #202024,
+  text: #FFFFFF,
+);
+
+$fweight: (
+  400: 400,
+  600: 600,
+  700: 700,
+  800: 800,
+);
+
+$isize: (
+  9: 9px,
+  12: 12px,
+  14: 14px,
+  16: 16px,
+  18: 18px,
+  22: 22px,
+  24: 24px,
+  36: 24px,
+);
+
+$fsize: (
+  9: .55rem,
+  12: .75rem,
+  14: .85rem,
+  16: 1rem,
+  18: 1.25rem,
+  22: 1.50rem,
+  24: 2rem,
+);
+
+@mixin isize-modifiers {
+  @each $name, $is in $isize {
+    &-#{$name} {
+      width: $is;
+    }
+  }
+}
+@mixin fs-modifiers {
+  @each $name, $fs in $fsize {
+    &-#{$name} {
+      font-size: $fs;
+    }
+  }
+}
+@mixin fw-modifiers {
+  @each $name, $fw in $fweight {
+    &-#{$name} {
+      font-weight: $fw;
+    }
+  }
+}
+
+@mixin color-modifiers {
+  @each $name, $hex in $colors {
+    &-#{$name} {
+      color: $hex;
+    }
+  }
+}
+
+@mixin bg-modifiers {
+  @each $name, $hex in $colors {
+    &-#{$name} {
+      background-color: $hex;
+    }
+  }
+}
+
+.color {
+  @include color-modifiers;
+}
+.bg {
+  @include bg-modifiers;
+}
+
+.f {
+  @include fw-modifiers;
+}
+.is {
+  @include isize-modifiers;
+}
+
+.fs {
+  @include fs-modifiers;
+}
