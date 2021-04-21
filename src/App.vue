@@ -4,7 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div> -->
-        <transition mode="out-in" name="slide-fade">
+        <transition>
       <router-view />
     </transition>
   </div>

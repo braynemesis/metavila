@@ -1,0 +1,314 @@
+{
+  "metavila": [
+      {
+          "ref": "660GF",
+          "name": "Calefator Montevideo Pequeno",
+          "min": "120",
+          "url": "https://metavila.com.br/meus_produtos/calefator-dupla-combustao-nano-660gf/"
+      },
+      {
+          "ref": "680GF",
+          "name": "Calefator Montevideo Pequeno",
+          "min": "140",
+          "url": "https://metavila.com.br/meus_produtos/calefator-dupla-combustao-nano-680gf/"
+      },
+      {
+          "ref": "690GF",
+          "name": "Calefator Montevideo Pequeno",
+          "min": "210",
+          "url": "https://metavila.com.br/meus_produtos/calefator-dupla-combustao-690gf/"
+      },
+      {
+          "ref": "760GF",
+          "name": "Calefator de canto Paris Pequeno",
+          "min": "225",
+          "url": "https://metavila.com.br/meus_produtos/calefator-canto-paris-760gf/"
+      },
+      {
+          "ref": "790GF",
+          "name": "Calefator Nantes Pequeno",
+          "min": "245",
+          "url": "https://metavila.com.br/meus_produtos/calefator-dupla-combustao-790gf/"
+      },
+      {
+          "ref": "890GF",
+          "name": "Calefator Nantes Médio",
+          "min": "310",
+          "url": "https://metavila.com.br/meus_produtos/calefator-dupla-combustao-890gf/"
+      },
+      {
+          "ref": "800GF",
+          "name": "Calefator Berlim Médio",
+          "min": "310",
+          "url": "https://metavila.com.br/meus_produtos/calefator-dupla-combustao-800gf/"
+      },
+      {
+          "ref": "1000GF",
+          "name": "Calefator Berlim Grande",
+          "min": "370",
+          "url": "https://metavila.com.br/meus_produtos/calefator-dupla-combustao-1000gf/"
+      },
+      {
+          "ref": "1290GF",
+          "name": "Calefator com Forno Lyon",
+          "min": "310",
+          "url": "https://metavila.com.br/meus_produtos/calefator-metavila-lyon-1290gf/"
+      },
+      {
+          "ref": "700INS",
+          "name": "Inserto Santiago Pequeno",
+          "min": "156",
+          "max": "260",
+          "url": "https://metavila.com.br/meus_produtos/inserto-carenado-700ins/"
+      },
+      {
+          "ref": "900INS",
+          "name": "Inserto Santiago Médio",
+          "min": "182",
+          "max": "312",
+          "url": "https://metavila.com.br/meus_produtos/inserto-carenado-900ins/"
+      },
+      {
+          "ref": "693F",
+          "name": "Lareira Suiça Aberta Preta com Craca Prateada",
+          "min": "40",
+          "url": "https://metavila.com.br/meus_produtos/lareira-suica-aberta-693f/"
+      },
+      {
+          "ref": "694F",
+          "name": "Lareira Suiça Aberta Preta com Craca Dourada",
+          "min": "40",
+          "url": "https://metavila.com.br/meus_produtos/lareira-suica-aberta-694f/"
+      },
+      {
+          "ref": "F400F",
+          "name": "Fogão a Lenha Barcelona Nº0 Tampo de ferro fundido",
+          "min": "150",
+          "url": "https://metavila.com.br/meus_produtos/fogao-a-lenha-barcelona-f400f/"
+      },
+      {
+          "ref": "F700F",
+          "name": "Fogão a Lenha Barcelona Nº1 Direito Tampo de ferro fundido",
+          "min": "210",
+          "url": "https://metavila.com.br/meus_produtos/fogao-a-lenha-tampo-ferro-fundido-f700f/"
+      },
+      {
+          "ref": "F700FE",
+          "name": "Fogão a Lenha Barcelona Nº1 Esquerdo Tampo de ferro fundido",
+          "min": "210",
+          "url": "https://metavila.com.br/meus_produtos/fogao-a-lenha-tampo-ferro-fundido-f700fe/"
+      },
+      {
+          "ref": "F820F",
+          "name": "Fogão a Lenha Barcelona Nº2 Direito Tampo de ferro fundido",
+          "min": "245",
+          "url": "https://metavila.com.br/meus_produtos/fogao-a-lenha-f820f-com-tampo-ferro-fundido/"
+      },
+      {
+          "ref": "F820FE",
+          "name": "Fogão a Lenha Barcelona Nº2 Esquerdo Tampo de ferro fundido",
+          "min": "245",
+          "url": "https://metavila.com.br/meus_produtos/fogao-a-lenha-metavila-com-tampo-ferro-fundido-f820fe/"
+      },
+      {
+          "ref": "F820V",
+          "name": "Fogão a Lenha Barcelona Nº2 Direito Tampo de vidro",
+          "min": "245",
+          "url": "https://metavila.com.br/meus_produtos/fogao-a-lenha-metavila-com-tampo-vidro-f820v/"
+      },
+      {
+          "ref": "F820VE",
+          "name": "Fogão a Lenha Barcelona Nº2 Esquerdo Tampo de vidro",
+          "min": "245",
+          "url": "https://metavila.com.br/meus_produtos/fogao-a-lenha-metavila-com-tampo-vidro-f820ve/"
+      },
+      {
+          "ref": "F820VT",
+          "name": "Fogão a Lenha Barcelona Nº2 Saída T Direito Tampo de vidro",
+          "min": "245",
+          "url": "https://metavila.com.br/meus_produtos/fogao-a-lenha-n2-com-tampo-vidro-f820vt/"
+      },
+      {
+          "ref": "F820VTE",
+          "name": "Fogão a Lenha Barcelona Nº2 Saída T Esquerdo Tampo de vidro",
+          "min": "245",
+          "url": "https://metavila.com.br/meus_produtos/fogao-a-lenha-f820vte-com-tampo-vidro-e-saida-t/"
+      }
+  ],
+  "liv": [
+      {
+          "ref": "LIV305",
+          "name": "Calefator Concept Médio Grafite",
+          "min": "340",
+          "url": "https://livaquecimento.com.br/produtos/calefator-liv-305/"
+      },
+      {
+          "ref": "LIV306",
+          "name": "Calefator Concept Médio Grafite e Vermelho",
+          "min": "340",
+          "url": "https://livaquecimento.com.br/produtos/calefator-liv-306/"
+      },
+      {
+          "ref": "LIV410",
+          "name": "Calefator Concept Grande Grafite",
+          "min": "450",
+          "url": "https://livaquecimento.com.br/produtos/calefator-liv-410/"
+      },
+      {
+          "ref": "LIV411",
+          "name": "Calefator Concept Grande Grafite e Vermelho",
+          "min": "450",
+          "url": "https://livaquecimento.com.br/produtos/calefator-liv-411/"
+      },
+      {
+          "ref": "LIV412",
+          "name": "Calefator Elegance Grande Grafite",
+          "min": "450",
+          "url": "https://livaquecimento.com.br/produtos/calefator-liv-412/"
+      },
+      {
+          "ref": "LIV413",
+          "name": "Calefator Elegance Grande Grafite e Vermelho",
+          "min": "450",
+          "url": "https://livaquecimento.com.br/produtos/calefator-liv-413/"
+      },
+      {
+          "ref": "LIV313",
+          "name": "Calefator Monarch Médio Grafite",
+          "min": "312",
+          "url": "https://livaquecimento.com.br/produtos/calefator-liv-313/"
+      },
+      {
+          "ref": "LIV314",
+          "name": "Calefator Monarch Médio Grafite e Vermelho",
+          "min": "312",
+          "url": "https://livaquecimento.com.br/produtos/calefator-liv-314/"
+      },
+      {
+          "ref": "LIV418",
+          "name": "Calefator Monarch Grande Grafite",
+          "min": "416",
+          "url": "https://livaquecimento.com.br/produtos/calefator-liv-418/"
+      },
+      {
+          "ref": "LIV419",
+          "name": "Calefator Monarch Grande Grafite e Vermelho",
+          "min": "416",
+          "url": "https://livaquecimento.com.br/produtos/calefator-liv-419/"
+      },
+      {
+          "ref": "LIV450",
+          "name": "Calefator Elíptico Pequeno Grafite",
+          "min": "260",
+          "url": "https://livaquecimento.com.br/produtos/calefator-liv-450/"
+      },
+      {
+          "ref": "LIV490",
+          "name": "Calefator Elíptico Médio Grafite",
+          "min": "310",
+          "url": "https://livaquecimento.com.br/produtos/calefator-liv-490/"
+      },
+      {
+          "ref": "LIV315",
+          "name": "Calefator Angular Médio Grafite",
+          "min": "275",
+          "url": "https://livaquecimento.com.br/produtos/calefator-liv-315/"
+      },
+      {
+          "ref": "LIV416",
+          "name": "Calefator com Forno Cuisine Grande Grafite",
+          "min": "312",
+          "url": "https://livaquecimento.com.br/produtos/calefator-liv-416/"
+      },
+      {
+          "ref": "LIV417",
+          "name": "Calefator com Forno Cuisine Grande Grafite e Vermelho",
+          "min": "312",
+          "url": "https://livaquecimento.com.br/produtos/calefator-liv-417/"
+      },
+      {
+          "ref": "LIV202",
+          "name": "Inserto Evolution 600 Pequeno Grafite",
+          "min": "260",
+          "url": "https://livaquecimento.com.br/produtos/inserto-liv-202/"
+      },
+      {
+          "ref": "LIV408",
+          "name": "Inserto Evolution 800 Médio Grafite",
+          "min": "320",
+          "url": "https://livaquecimento.com.br/produtos/inserto-liv-408/"
+      },
+      {
+          "ref": "LIV804",
+          "name": "Fogão a Lenha Fusion Direito Tampo de ferro fundido Grafite e Vermelho",
+          "min": "245",
+          "url": "https://livaquecimento.com.br/produtos/fogao-a-lenha-liv-804/"
+      },
+      {
+          "ref": "LIV804E",
+          "name": "Fogão a Lenha Fusion Esquerdo Tampo de ferro fundido Grafite e Vermelho",
+          "min": "245",
+          "url": "https://livaquecimento.com.br/produtos/fogao-a-lenha-liv-804/"
+      },
+      {
+          "ref": "LIV805",
+          "name": "Fogão a Lenha Fusion Direito Tampo de ferro fundido Grafite ",
+          "min": "245",
+          "url": "https://livaquecimento.com.br/produtos/fogao-a-lenha-liv-805/"
+      },
+      {
+          "ref": "LIV805E",
+          "name": "Fogão a Lenha Fusion Esquerdo Tampo de ferro fundido Grafite",
+          "min": "245",
+          "url": "https://livaquecimento.com.br/produtos/fogao-a-lenha-liv-805/"
+      },
+      {
+          "ref": "LIV802",
+          "name": "Fogão a Lenha Fusion Direito Tampo de vidro Grafite e Vermelho",
+          "min": "245",
+          "url": "https://livaquecimento.com.br/produtos/fogao-a-lenha-liv-802/"
+      },
+      {
+          "ref": "LIV802E",
+          "name": "Fogão a Lenha Fusion Esquerdo Tampo de vidro Grafite e Vermelho",
+          "min": "245",
+          "url": "https://livaquecimento.com.br/produtos/fogao-a-lenha-liv-802/"
+      },
+      {
+          "ref": "LIV803",
+          "name": "Fogão a Lenha Fusion Direito Tampo de vidro Grafite",
+          "min": "245",
+          "url": "https://livaquecimento.com.br/produtos/fogao-a-lenha-liv-803/"
+      },
+      {
+          "ref": "LIV803E",
+          "name": "Fogão a Lenha Fusion Esquerdo Tampo de vidro Grafite ",
+          "min": "245",
+          "url": "https://livaquecimento.com.br/produtos/fogao-a-lenha-liv-803/"
+      },
+      {
+          "ref": "LIV806",
+          "name": "Fogão a Lenha Fusion Saída T Direito Tampo de vidro Grafite e Vermelho",
+          "min": "245",
+          "url": "https://livaquecimento.com.br/produtos/fogao-a-lenha-liv-806/"
+      },
+      {
+          "ref": "LIV806E",
+          "name": "Fogão a Lenha Fusion Saída T Esquerdo Tampo de vidro Grafite e Vermelho",
+          "min": "245",
+          "url": "https://livaquecimento.com.br/produtos/fogao-a-lenha-liv-806/"
+      },
+      {
+          "ref": "LIV807",
+          "name": "Fogão a Lenha Fusion Saída T Direito Tampo de vidro Grafite",
+          "min": "245",
+          "url": "https://livaquecimento.com.br/produtos/fogao-a-lenha-liv-807/"
+      },
+      {
+          "ref": "LIV807E",
+          "name": "Fogão a Lenha Fusion Saída T Esquerdo Tampo de vidro Grafite ",
+          "min": "245",
+          "url": "https://livaquecimento.com.br/produtos/fogao-a-lenha-liv-807/"
+      }
+  ]
+}

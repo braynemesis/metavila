@@ -18,6 +18,7 @@ const routes = [
   {
     path: '/step',
     name: 'Steps',
+    props: true,
     component: () => import(/* webpackChunkName: "steps" */ '../views/Steps/Index.vue'),
     children: [
       {

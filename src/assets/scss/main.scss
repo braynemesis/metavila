@@ -114,6 +114,16 @@ textarea {
   }
 }
 
+.btn-tertiary {
+  background: $secondary;
+  color: white;
+  &:hover {
+    opacity: 0.8;
+    background: $secondary;
+  }
+}
+
+
 .btn-white {
   background: white;
   color: $text;
@@ -136,6 +146,9 @@ textarea {
 .btn-secondary {
   background: $tertiary;
   color: white;
+  &:hover{
+    background: $tertiary;
+  }
 }
 
 .btn-success:not(:disabled):not(.disabled):active,

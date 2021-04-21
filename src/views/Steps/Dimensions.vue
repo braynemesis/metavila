@@ -10,7 +10,7 @@
             <div
               class="card-body d-flex justify-content-center flex-column align-items-center"
             >
-              <h5 class="pb-2">Comprimento</h5>
+              <h5 class="pb-2">Comprimento (m)</h5>
               <input type="text" name="comprimento" id="comp" v-model="dimensions.comprimento" />
               <img src="@/assets/img/comprimento.svg" alt="comprimento" />
             </div>
@@ -21,7 +21,7 @@
             <div
               class="card-body d-flex justify-content-center flex-column align-items-center"
             >
-              <h5 class="pb-2">Largura</h5>
+              <h5 class="pb-2">Largura (m)</h5>
               <input type="text" name="comprimento" id="lar" v-model="dimensions.largura" />
               <img src="@/assets/img/largura.svg" alt="largura" />
             </div>
@@ -32,7 +32,7 @@
             <div
               class="card-body d-flex justify-content-center flex-column align-items-center"
             >
-              <h5 class="pb-2">Altura</h5>
+              <h5 class="pb-2">Altura (m)</h5>
               <input type="text" name="comprimento" id="alt" v-model="dimensions.comprimento" />
               <img src="@/assets/img/altura.svg" alt="altura" />
             </div>
