@@ -21,8 +21,8 @@
           />
         <router-view />
         <div class="stepper-footer d-flex justify-content-end align-items-center pr-md-4 px-4">
-          <button class="btn btn-secondary px-5">Voltar</button>
-          <button class="btn btn-primary px-5">Próximo</button>
+          <router-link to="/" tag="button" class="btn btn-secondary px-5">Voltar</router-link>
+          <router-link to="/steps/final" tag="button" class="btn btn-primary px-5">Próximo</router-link>
         </div>
       </div>
     </div>
