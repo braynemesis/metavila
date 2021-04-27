@@ -1,7 +1,7 @@
 <template>
   <div class="home container-fluid">
     <div class="row">
-      <div class="col-1 column-sidebar vh-100 m-0 p-0 d-md-block d-none">
+      <div class="col-1 vh-100 m-0 p-0 d-md-block d-none">
         <div
           class="sidebar vh-100 d-flex align-items-center justify-content-center position-relative"
         >
@@ -13,7 +13,7 @@
           <feather class="color-text icon-home" type="home"></feather>
         </div>
       </div>
-      <div class="col-12 col-md-11 offset-md-1 vh-100 position-relative">
+      <div class="col-12 col-md-11 offset-1 vh-100 position-relative m-0 p-0">
         <img
           src="@/assets/img/icon-logo.svg"
           alt="logo metávila"
@@ -30,6 +30,7 @@
             :to="{name: 'Final', query:{comp: '22', alt: '10', lar: '23'}}"
             tag="button"
             class="btn btn-primary px-5"
+            style="height: 2.5rem"
             >Próximo</router-link
           >
         </div>
@@ -45,9 +46,6 @@ export default {
 </script>
 
 <style lang="scss">
-.column-sidebar{
-  position: fixed;
-}
 .stepper-footer {
   background: var(--tertiary);
   width: 92vw;

@@ -1,11 +1,12 @@
 <template>
     <div class="home row final d-flex justify-content-start align-items-center p-md-5 p-3 m-0">
       <div class="col-12">
+        <p>Resultado: {{calc_meters}}m²</p>
         <h3 class="color-text">Veja alguns resultados que selecionamos para você</h3>
         <hr class="color-text bg-secondary">
       </div>
 <div class="row mt-4 w-100">
-        <div class="col-md-3 mb-3" v-for="product in productsResult" :key="product.ref">
+        <div class="col-md-4 col-xl-3 mb-3" v-for="product in productsResult" :key="product.ref">
         <div class="card border-0 bg-tertiary">
           <div class="card-body color-text d-flex flex-column">
             <img src="@/assets/img/produto.webp" alt="produto foto" class="img-fluid mb-3 d-flex mx-auto w-75">
