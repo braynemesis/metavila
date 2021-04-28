@@ -1,16 +1,17 @@
 <template>
   <div class="home container-fluid">
     <div class="row">
-      <div class="col-1 vh-100 m-0 p-0 d-md-block d-none">
+      <div class="col-1 vh-120 m-0 p-0 d-md-block d-none">
         <div
-          class="sidebar vh-100 d-flex align-items-center justify-content-center position-relative"
+          class="sidebar vh-120 d-flex align-items-center justify-content-center position-relative"
         >
-          <img
-            src="@/assets/img/icon-logo.svg"
-            alt="logo metávila"
-            class="img-fluid logo-sidebar w-75"
-          />
-          <feather class="color-text icon-home" type="home"></feather>
+          <router-link to="/">
+            <img
+              src="@/assets/img/icon-logo.svg"
+              alt="logo metávila"
+              class="img-fluid logo-sidebar w-75"
+            />
+          </router-link>
         </div>
       </div>
       <div class="col-12 col-md-11 offset-1 vh-100 position-relative m-0 p-0">
@@ -19,20 +20,22 @@
           alt="logo metávila"
           class="img-fluid logo-sidebar w-10 p-2 d-flex d-md-none mx-auto"
         />
-        <router-view />
+        <transition mode="out-in" name="slide-fade">
+          <router-view />
+        </transition>
         <div
           class="stepper-footer d-flex justify-content-end align-items-center pr-md-4 px-4"
         >
-          <router-link to="/" tag="button" class="btn btn-secondary px-5"
-            >Voltar</router-link
-          >
-          <router-link
-            :to="{name: 'Final', query:{comp: '22', alt: '10', lar: '23'}}"
-            tag="button"
+          <button class="btn btn-secondary px-5" @click="previousRoute">
+            Voltar
+          </button>
+          <button
             class="btn btn-primary px-5"
             style="height: 2.5rem"
-            >Próximo</router-link
+            @click="nextRoute"
           >
+            Próximo
+          </button>
         </div>
       </div>
     </div>
@@ -42,6 +45,41 @@
 <script>
 export default {
   name: "Steps",
+  data() {
+    return {
+      index: 1,
+      routes: ["Home", "Dimensions", "Final"],
+    };
+  },
+  methods: {
+        showAlert() {
+
+      this.$swal("Por favor, preencha todas as informações");
+    },
+    nextRoute() {
+      if (this.index < 3) {
+        if (this.index == 1) {
+          var { altura, largura, comprimento } = sessionStorage;
+          var result = [altura, largura, comprimento].some(e => e === '');
+          if(result){
+           this.showAlert()
+          } else {
+               ++this.index;
+          this.$router.push({ name: this.routes[this.index] });
+          }
+        } else {
+          ++this.index;
+          this.$router.push({ name: this.routes[this.index] });
+        }
+      }
+    },
+    previousRoute() {
+      if (this.index != 0) {
+        --this.index;
+        this.$router.push({ name: this.routes[this.index] });
+      }
+    },
+  },
 };
 </script>
 

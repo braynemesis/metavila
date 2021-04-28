@@ -11,7 +11,12 @@
               class="card-body d-flex justify-content-center flex-column align-items-center"
             >
               <h5 class="pb-2">Comprimento (m)</h5>
-              <input type="text" name="comprimento" id="comp" v-model="dimensions.comprimento" />
+              <input
+                type="number"
+                name="comprimento"
+                id="comp"
+                v-model="comprimento"
+              />
               <img src="@/assets/img/comprimento.svg" alt="comprimento" />
             </div>
           </div>
@@ -22,7 +27,12 @@
               class="card-body d-flex justify-content-center flex-column align-items-center"
             >
               <h5 class="pb-2">Largura (m)</h5>
-              <input type="text" name="comprimento" id="lar" v-model="dimensions.largura" />
+              <input
+                type="number"
+                name="comprimento"
+                id="lar"
+                v-model="largura"
+              />
               <img src="@/assets/img/largura.svg" alt="largura" />
             </div>
           </div>
@@ -33,7 +43,7 @@
               class="card-body d-flex justify-content-center flex-column align-items-center"
             >
               <h5 class="pb-2">Altura (m)</h5>
-              <input type="text" name="comprimento" id="alt" v-model="dimensions.comprimento" />
+              <input type="number" name="comprimento" id="alt" v-model="altura" />
               <img src="@/assets/img/altura.svg" alt="altura" />
             </div>
           </div>
@@ -46,24 +56,39 @@
 <script>
 export default {
   name: "Dimensions",
-  data(){
-    return{
-      dimensions: {
-        largura: '',
-        altura: '',
-        comprimento: ''
-      }
-    }
+  data() {
+    return {
+      largura: "",
+      altura: "",
+      comprimento: "",
+    };
+  },
+  watch: {
+    largura: function () {
+      sessionStorage.largura = this.largura;
+    },
+    altura: function () {
+      sessionStorage.altura = this.altura;
+    },
+    comprimento: function () {
+      sessionStorage.comprimento = this.comprimento;
+    },
+  },
+  created(){
+    sessionStorage.clear()
+    sessionStorage.largura = ''
+    sessionStorage.altura = ''
+    sessionStorage.comprimento = ''
   }
 };
 </script>
 
 <style lang="scss" scoped>
-.dimensions{
+.dimensions {
   height: 100vh;
 }
-@media screen and(max-width: 900px){
-  .dimensions{
+@media screen and(max-width: 900px) {
+  .dimensions {
     height: auto;
   }
 }
@@ -71,12 +96,12 @@ export default {
   background: var(--tertiary);
   min-height: 15rem;
   color: white;
-  img{
+  img {
     max-width: 1.5rem;
-    padding-top: 1.3rem
+    padding-top: 1.3rem;
   }
   input {
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     height: 2.5rem;
     width: 75%;
     background: var(--body-bg);
@@ -87,9 +112,9 @@ export default {
     text-align: center;
   }
 }
-@media screen and(max-width: 900px){
-  .content-input{
-     min-height: 5rem;
+@media screen and(max-width: 900px) {
+  .content-input {
+    min-height: 5rem;
   }
 }
 </style>

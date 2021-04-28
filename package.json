@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prod":"yarn lint && yarn vue-cli-service build",
+    "prod": "yarn lint && yarn vue-cli-service build",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
@@ -23,6 +23,7 @@
     "vue": "^2.6.11",
     "vue-feather": "^1.1.1",
     "vue-router": "^3.2.0",
+    "vue-sweetalert2": "^4.3.1",
     "vuex": "^3.4.0"
   },
   "devDependencies": {
