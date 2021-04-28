@@ -9,7 +9,7 @@
       </h3>
       <hr class="color-text bg-secondary" />
     </div>
-    <div class="row mt-4 w-100">
+    <div class="row mt-4 w-100" v-if="!!productsResult.length">
       <div
         class="col-md-4 col-xl-3 mb-3"
         v-for="product in productsResult"
@@ -38,7 +38,25 @@
         </div>
       </div>
     </div>
-    <div class="row mt-4">
+    <div class="row mt-5" v-else>
+      <div class="col-12">
+        <div class="card border-0 shadow-sm bg-tertiary">
+          <div class="card-body color-text">
+<feather class="color-secondary" type="alert-triangle"></feather>
+<h5 class="pt-3">Precisa de um projeto personalizado?</h5>
+<p>
+A demanda para seu ambiente é maior do que a capacidade de um único equipamento. Entre em contato com nosso SAC para avaliarmos o seu projeto
+</p>
+<p class="d-flex justify-content-start align-items-start">
+<feather class="color-text f-12 pr-2" type="mail"></feather>
+  <a class="color-primary f-800" href="mailto:sac@metavila.com.br">sac@metavila.com.br</a>
+</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4" v-show="!!productsResult.length">
       <div class="col-12">
         <div class="card border-0 shadow-sm bg-tertiary">
           <div class="card-body color-text">
