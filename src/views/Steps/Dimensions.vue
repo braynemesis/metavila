@@ -16,6 +16,7 @@
                 name="comprimento"
                 id="comp"
                 v-model="comprimento"
+                min="0"
               />
               <img src="@/assets/img/comprimento.svg" alt="comprimento" />
             </div>
@@ -32,6 +33,7 @@
                 name="comprimento"
                 id="lar"
                 v-model="largura"
+                min="0"
               />
               <img src="@/assets/img/largura.svg" alt="largura" />
             </div>
@@ -43,7 +45,7 @@
               class="card-body d-flex justify-content-center flex-column align-items-center"
             >
               <h5 class="pb-2">Altura (m)</h5>
-              <input type="number" name="comprimento" id="alt" v-model="altura" />
+              <input type="number" name="comprimento" id="alt" v-model="altura" min="0" />
               <img src="@/assets/img/altura.svg" alt="altura" />
             </div>
           </div>

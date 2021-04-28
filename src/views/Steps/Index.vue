@@ -30,6 +30,7 @@
             Voltar
           </button>
           <button
+          v-show="this.$route.name != 'Final'"
             class="btn btn-primary px-5"
             style="height: 2.5rem"
             @click="nextRoute"
@@ -79,7 +80,7 @@ export default {
         this.$router.push({ name: this.routes[this.index] });
       }
     },
-  },
+  }
 };
 </script>
 
