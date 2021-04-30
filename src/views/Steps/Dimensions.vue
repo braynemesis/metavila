@@ -1,9 +1,14 @@
 <template>
   <div
-    class="home row dimensions d-flex justify-content-start align-items-center p-5 m-0"
+    class="home row dimensions d-flex justify-content-start align-items-center p-3 m-0"
   >
     <div class="col-md-12">
-      <h3 class="color-text">Dimensões da sala (m²)</h3>
+      <h3 class="color-text">Dimensões do ambiente onde o produto será instalado</h3>
+                 <feather class="color-primary d-md-none d-block" type="alert-triangle"></feather>
+      <p class="color-text d-flex flex-row align-items-center">
+           <feather class="color-primary d-none d-md-block" type="alert-triangle"></feather>
+           <span class="pl-2">Utilizaremos estes valores para calcular o tamanho do ambiente em m³ e sugerir os melhores equipamentos.</span>
+      </p>
       <div class="row">
         <div class="col-md-4">
           <div class="card content-input mt-5">
@@ -51,6 +56,9 @@
           </div>
         </div>
       </div>
+          <div class="row" style="height: 100px">
+
+    </div>
     </div>
   </div>
 </template>
@@ -106,10 +114,10 @@ export default {
     transition: all 0.2s ease-in-out;
     height: 2.5rem;
     width: 75%;
-    background: var(--body-bg);
+    background: #f1f1f1;
     border: 0;
     border-radius: 0.3rem;
-    color: white;
+    color: var(--tertiary) ;
     font-weight: 500;
     text-align: center;
   }

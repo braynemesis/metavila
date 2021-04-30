@@ -1,7 +1,7 @@
 <template>
   <div class="home container-fluid">
     <div class="row">
-      <div class="col-1 vh-120 m-0 p-0 d-md-block d-none">
+      <div class="col-1 vh-120 m-0 p-0 d-md-block d-none position-fixed">
         <div
           class="sidebar vh-120 d-flex align-items-center justify-content-center position-relative"
         >
@@ -14,7 +14,7 @@
           </router-link>
         </div>
       </div>
-      <div class="col-12 col-md-11 offset-1 vh-100 position-relative m-0 p-0">
+      <div class="col-12 col-md-11 offset-md-1 vh-100 mb-5 position-relative px-0">
         <img
           src="@/assets/img/icon-logo.svg"
           alt="logo metávila"
@@ -31,7 +31,7 @@
           </button>
           <button
           v-show="this.$route.name != 'Final'"
-            class="btn btn-primary px-5"
+            class="btn btn-primary px-5 mr-md-2"
             style="height: 2.5rem"
             @click="nextRoute"
           >
@@ -87,16 +87,22 @@ export default {
 <style lang="scss">
 .stepper-footer {
   background: var(--tertiary);
-  width: 92vw;
   height: 5rem;
+  width: 100vw;
   position: fixed;
   bottom: 0;
   box-shadow: 4px -2rem 2rem rgba(0, 0, 0, 0.2);
 }
-@media screen and(max-width: 900px) {
+@media screen and(min-width: 900px) {
   .stepper-footer {
-    width: 100vw;
-    position: relative;
+
+  width: 92vw;
+  }
+}
+@media screen and(max-width: 900px) {
+  .home {
+
+ justify-content: center !important;
   }
 }
 .sidebar {
